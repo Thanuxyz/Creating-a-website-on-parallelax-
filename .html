@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVJ College Parallax Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="parallax" id="header">
+        <div class="overlay">
+            <h1>Welcome to MVJ College of Engineering</h1>
+            <p>Your Gateway to Excellence in Engineering Education</p>
+        </div>
+    </header>
+
+    <section class="content">
+        <h2>About Us</h2>
+        <p>MVJ College of Engineering, established in 1982, is one of the premier engineering colleges in Bangalore. Known for its cutting-edge facilities and comprehensive education programs, MVJ College prepares students to excel in their careers.</p>
+    </section>
+
+    <section class="parallax" id="facilities">
+        <div class="overlay">
+            <h2>State-of-the-Art Facilities</h2>
+        </div>
+    </section>
+
+    <section class="content">
+        <h2>Courses Offered</h2>
+        <p>We offer a wide range of undergraduate and postgraduate programs in engineering and management. Our curriculum is designed to foster innovation and practical problem-solving skills.</p>
+    </section>
+
+    <section class="parallax" id="campus-life">
+        <div class="overlay">
+            <h2>Vibrant Campus Life</h2>
+        </div>
+    </section>
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* Section Specific Backgrounds */
+#header {
+    background-image: url('https://images.shiksha.com/mediadata/images/1578054365php5ymqGZ.jpeg');
+}
+
+#facilities {
+    background-image: url('https://mvjcon.edu.in/uploads/latest-news/7.jpg');
+}
+
+#campus-life {
+    background-image: url('https://mvjce.edu.in/wp-content/uploads/2024/06/vertechx-1024x683.webp');
+}
+
+/* Content Section */
+.content {
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+    <footer class="content">
+        <h3>Contact Us</h3>
+        <p>Email: info@mvjce.edu.in | Phone: +91-80-12345678</p>
+        <p>Address: MVJ College of Engineering, Whitefield, Bangalore</p>
+    </footer>
+</body>
+</html>
